@@ -1,0 +1,9 @@
+{
+  "name": "funny-cards-go-brr",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/funny-cards-go-brr/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project funny-cards-go-brr --web",
+  "targets": {}
+}
