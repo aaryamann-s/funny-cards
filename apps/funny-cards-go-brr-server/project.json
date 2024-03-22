@@ -1,0 +1,24 @@
+{
+  "name": "funny-cards-go-brr-server",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/funny-cards-go-brr-server/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "funny-cards-go-brr-server:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "funny-cards-go-brr-server:build:development"
+        },
+        "production": {
+          "buildTarget": "funny-cards-go-brr-server:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
