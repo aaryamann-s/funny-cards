@@ -1,9 +1,13 @@
-import NxWelcome from './nx-welcome';
+import NxWelcome from "./nx-welcome";
+import Homepage from "../Home/Homepage";
+import Lobbypage from "../Lobby/Lobbypage";
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="funny-cards-go-brr" />
+    <div className="">
+      {/* <NxWelcome title="funny-cards-go-brr" /> */}
+      <Homepage />
+      <Lobbypage />
     </div>
   );
 }
